@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Simple full-stack product catalog">
+<title>NovaCart – Product Catalog</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<nav class="nav"><strong>NovaCart</strong><div><a href="#home">Home</a><a href="#products">Products</a><a href="#about">About</a></div></nav>
+<main>
+<section id="home" class="hero"><div><p class="tag">FULL-STACK DEMO</p><h1>Everything you need,<br>in one simple catalog.</h1><p>Explore useful products with a fast, responsive interface powered by a Node.js REST API.</p><a class="btn" href="#products">Shop Products</a></div><div class="hero-icon">🛍️</div></section>
+
+<section id="products" class="section">
+<div class="section-head"><div><h2>Product Catalog</h2><p>Search and filter products instantly.</p></div><div class="controls"><input id="search" placeholder="Search products..."><select id="category"><option value="">All categories</option><option>Electronics</option><option>Accessories</option><option>Fashion</option><option>Home</option></select></div></div>
+<div id="productsGrid" class="grid"></div>
+</section>
+
+<section id="about" class="about section"><h2>Project Architecture</h2><p>Frontend UI → Fetch API → Express REST API → Product data. The app is modular, responsive and ready for deployment to a Node-compatible hosting platform.</p></section>
+</main>
+<footer>NovaCart Full-Stack Deployment Demo</footer>
+<script src="/js/app.js"></script>
+</body>
+</html>
