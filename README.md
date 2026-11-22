@@ -1,18 +1,38 @@
-# Full-Stack Deployment & Project Architecture – NovaCart
+# NovaCart — Full-Stack E-Commerce & Product Store
 
-## Stack
-- Frontend: HTML, CSS, JavaScript
-- Backend: Node.js + Express
-- API: REST endpoints under `/api/products`
-- Client-side navigation using page anchors/hash routes
-- Responsive and lightweight assets
+[![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Express.js](https://img.shields.io/badge/Express.js-Framework-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-Frontend%20%26%20Backend-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
 
-## Run locally
-1. Install Node.js.
-2. Open this folder in terminal.
-3. Run `npm install`.
-4. Run `npm start`.
-5. Open `http://localhost:3000`.
+## 📌 Project Overview
+**NovaCart** is a full-stack shopping and product discovery platform built with **Node.js, Express, and vanilla frontend technologies**. It provides an end-to-end shopping catalog experience including product filtering, item details, and an interactive shopping cart.
 
-## Deployment
-This project is structured for Node-compatible hosting such as Render, Railway or a similar platform. Use the start command `npm start`.
+---
+
+## 🚀 Key Features
+- **Product Catalog API:** Express endpoints serving dynamic product inventories with pricing and availability.
+- **Client Cart Management:** Real-time cart calculation and item counter.
+- **Clean Git Repository:** Dependency directories strictly excluded from version control.
+
+---
+
+## 📂 Project Folder Structure
+```
+full-stack-shop/
+├── .gitignore
+├── README.md
+├── package.json
+├── server.js              # Express backend server
+└── public/                # Frontend client assets (HTML, CSS, JS)
+```
+
+---
+
+## 💻 Installation & Execution Instructions
+```bash
+git clone https://github.com/Dhanusheyap755/full-stack-shop.git
+cd full-stack-shop
+npm install
+node server.js
+```
+*Open `http://localhost:3000` in your web browser.*
